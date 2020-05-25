@@ -54,6 +54,7 @@ h1 {
     color:#FFFFFF;
     display:block;
     margin:0px 20px 0px 15px;
+    border-top-right-radius: 80px;
 }
 
 h2 {
@@ -83,11 +84,12 @@ section {
 
 section:nth-child(2) {
     padding-top:20px;
-    background-color: #192838;
+
 }
 
 section:nth-child(3) {
-    background-color: #1b678c;
+    background-color: #192838;
+    background-image:url('images/gfx.gif');
 }
 
 section:nth-child(3) ul {
@@ -104,9 +106,13 @@ section:nth-child(3) li {
 }
 
 section:nth-child(4) {
-    background-repeat: no-repeat;
     text-align:center;
     box-shadow: 0px 11px 0px 0px black;
+    background-color: #000000;
+    background-image:url('images/bars.gif');
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-bottom-left-radius: 80px;
 }
 
 figure {
