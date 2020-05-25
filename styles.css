@@ -50,8 +50,8 @@ h1 {
     font-size: 24px;
     padding: 10px;
     letter-spacing: 3px;
-    background: #dadada;
-    color:#000;
+    background: #000000;
+    color:#FFFFFF;
     display:block;
     margin:0px 20px 0px 15px;
 }
@@ -77,21 +77,24 @@ p {
 
 section {
     padding: 10px;
-    margin: 0px 20px 5px 15px;
-    background-color: #4e647b;
-    box-shadow: 7px 9px #272727;
-    border: 1px solid #899698;
+    margin: 0px 20px 0px 15px;
+    background-color: #232e33;
 }
 
 section:nth-child(2) {
-    padding-top:30px;
+    padding-top:20px;
     background-color: #192838;
+}
+
+section:nth-child(3) {
+    background-color: #1b678c;
 }
 
 section:nth-child(3) ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     margin: 0px 0px 10px 0px;
+
 }
 
 section:nth-child(3) li {
