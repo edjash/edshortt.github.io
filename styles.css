@@ -25,6 +25,7 @@ nav {
     padding: 0px;
     display: block;
     margin: 0px 20px 0px 0px;
+    float:right;
 }
 
 nav a {
@@ -45,11 +46,7 @@ nav li {
     display: inline-block;
 }
 
-nav li:last-child {
-    border-width: 0px;
-}
-
-h1, h2, h3 {
+h1, h2 {
     font-family: 'Advent Pro', sans-serif;
     color: #B2EBF2;
 }
@@ -61,22 +58,15 @@ h1 {
     color:#FFFFFF;
     display:block;
     margin:0px;
-    text-align:center;
-    background-color: #00000066;
-    box-shadow: -2px 3px 5px black;
+    float:left;
 }
 
 h2 {
     display: block;
     margin: 0px 0px 13px 0px;
     padding: 0px;
-    font-size: 16px;
+    font-size: 18px;
     text-align:left;
-}
-
-h3 {
-    padding:10px 0px 10px 5px;
-    margin:0px;
 }
 
 p {
@@ -87,23 +77,24 @@ p {
 }
 
 section {
+    clear:both;
     padding: 10px;
     padding-top:20px;
 }
 
-section:nth-child(3) ul {
+section:nth-of-type(2) ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     margin: 0px 0px 10px 0px;
 
 }
 
-section:nth-child(3) li {
+section:nth-of-type(2) li {
     padding-top: 10px;
     list-style-type: circle;
 }
 
-section:nth-child(4) {
+section:nth-of-type(3) {
     text-align:center;
     padding-bottom:20px;
 }
