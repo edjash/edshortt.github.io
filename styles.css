@@ -14,9 +14,9 @@ body, html {
 
 main {
     display: block;
-    max-width: 1000px;
+    max-width: 1024px;
     min-height: 100%;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 0px auto;
     background: linear-gradient(288deg, rgba(0,0,0,1) 35%, rgb(4, 63, 113) 100%);
 }
 
@@ -55,7 +55,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 24px;
-    padding: 10px 60px 10px 60px;
+    padding: 10px;
     letter-spacing: 2px;
     color:#FFFFFF;
     display:block;
