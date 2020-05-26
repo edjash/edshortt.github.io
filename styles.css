@@ -16,7 +16,6 @@ main {
     display: block;
     max-width: 1000px;
     margin: 0 auto;
-    padding-bottom:10px;
     background: linear-gradient(288deg, rgba(0,0,0,1) 35%, rgb(4, 63, 113) 100%);
 }
 
@@ -89,10 +88,6 @@ section {
     padding-top:20px;
 }
 
-section:nth-child(2) {
-    
-}
-
 section:nth-child(3) ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -103,7 +98,6 @@ section:nth-child(3) ul {
 section:nth-child(3) li {
     padding-top: 10px;
     list-style-type: circle;
-    font-family: monospace;
 }
 
 section:nth-child(4) {
@@ -124,7 +118,6 @@ figure img {
 
 figcaption {
     font-size: 13px;
-    width: 230px;
     margin-top: -5px;
     padding: 5px;
 }
