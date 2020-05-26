@@ -62,7 +62,8 @@ h1 {
     display:block;
     margin:0px;
     text-align:center;
-    background-color: black;
+    background-color: #00000066;
+    box-shadow: -2px 3px 5px black;
 }
 
 h2 {
@@ -88,7 +89,6 @@ p {
 section {
     padding: 10px;
     padding-top:20px;
-    background-color: #ab3bff21;
 }
 
 section:nth-child(3) ul {
