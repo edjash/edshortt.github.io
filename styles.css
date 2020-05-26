@@ -5,7 +5,6 @@ body, html {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    background-color: rgb(54, 64, 72);
     color: #FFFFFF;
     background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
     background-color: #0e0e0e;
@@ -14,7 +13,6 @@ body, html {
 }
 
 main {
-    display: block;
     max-width: 1024px;
     min-height: 100%;
     margin: 0 auto 0px auto;
@@ -92,6 +90,8 @@ section:nth-of-type(2) ul {
 section:nth-of-type(2) li {
     padding-top: 10px;
     list-style-type: circle;
+    color: #FFF8E1;
+    text-shadow: 2px 2px black;
 }
 
 section:nth-of-type(3) {
