@@ -15,7 +15,8 @@ body, html {
 main {
     display: block;
     max-width: 1000px;
-    margin: 0 auto;
+    min-height: 100%;
+    margin: 0 auto 10px auto;
     background: linear-gradient(288deg, rgba(0,0,0,1) 35%, rgb(4, 63, 113) 100%);
 }
 
@@ -56,7 +57,6 @@ h1 {
     font-size: 24px;
     padding: 10px 60px 10px 60px;
     letter-spacing: 2px;
-    background: #000000;
     color:#FFFFFF;
     display:block;
     margin:0px;
